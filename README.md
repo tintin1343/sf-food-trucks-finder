@@ -57,7 +57,7 @@ by name.
 
 ### San Fransisco Food Truck Finder Web App
 
-The write up for this can be found in [here](https://github.com/tintin1343/sf-food-trucks-finder/writeup.md);
+The write up for this can be found in [here](./writeup.md)
 
 
 
