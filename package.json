@@ -1,0 +1,16 @@
+{
+  "name": "sf-food-trucks-finder",
+  "version": "1.0.0",
+  "description": "A command-line based NodeJS project that lists open food trucks in San Fransisco at a given time",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collect-coverage",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.4.0",
+    "moment": "^2.27.0"
+  }
+}
