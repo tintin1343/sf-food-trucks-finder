@@ -26,7 +26,7 @@ by name.
 ```
 
 ### Running The Program
-- Install the latest version of (node and npm)[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm] (This program was developed on node v2.18.3). Anything above Node version 8 should be fine.
+- Install the latest version of [node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (This program was developed on node v2.18.3). Anything above Node version 8 should be fine.
 - Run `npm install`
 - Run the program `node index.js`
 - Follow the instructions on the console/ prompt:
