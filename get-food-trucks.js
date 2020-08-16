@@ -27,8 +27,6 @@ let count=0;
  */
 const getData = (day, time, offset) => {
   // queryParameters for the API Call: includes SoQl query and filters to fetch only the needed data
-  // const queryParamters = `?dayorder=${day}&$select=applicant,location,start24,end24,dayofweekstr&$where=
-  // "${time}" between start24 and end24&$order=applicant ASC&$limit=${limit}&$offset=${offset}`;
   const queryParamters = `?dayorder=${day}&$select=applicant,location,start24,end24,dayofweekstr&$where=
   start24 <= "${time}" and end24>"${time}"&$order=applicant ASC&$limit=${limit}&$offset=${offset}`;
     
@@ -81,8 +79,8 @@ const getFoodTrucks = (day, time) => {
     
           // Handle the case when there are food trucks open 
           foodTrucks.map((truck) => {
-            console.log(truck.applicant.padEnd(75).concat((truck.location).padEnd(30))
-              .concat((truck.start24).concat("-").concat(truck.end24).padEnd(20)).concat(truck.dayofweekstr));
+            console.log(truck.applicant.padEnd(75).concat((truck.location).padEnd(30)));
+              //.concat((truck.start24).concat("-").concat(truck.end24).padEnd(20)).concat(truck.dayofweekstr));
           });
           console.log("----------------------------------------------------------------------------------------------");
           
