@@ -39,7 +39,7 @@ by name.
 - `get-food-trucks.js`: Business logic to get the food truck data from the `Socrata` API.
 - `date-time-helpers.js`: Helper fucntions to calculate date and time information.
 - `constants.js`: Constants used across the app.
-- `writeup.md`: A write up detailing how this app can be converted into a web based applicatino that scales to millions of users.
+- `writeup.md`: A write up detailing how this app can be converted into a web based application that scales to millions of users.
 
 ### Libraries Used
 - Moment.js
