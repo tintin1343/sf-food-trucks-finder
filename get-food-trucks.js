@@ -76,7 +76,7 @@ const getFoodTrucks = (day, time) => {
         } else {
           // Display food trucks if they are open
           console.log("----------------------------------------------------------------------------------------------");
-          console.log("Name".padEnd(75).concat("Address"));
+          console.log(("Name".padEnd(75)).concat("Address"));
           console.log("----------------------------------------------------------------------------------------------");
     
           // Handle the case when there are food trucks open 
