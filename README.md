@@ -26,13 +26,13 @@ by name.
 ```
 
 ### Running The Program
-- Install the latest version of [node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (This program was developed on node v12.18.3). Anything above Node version 8 should be fine.
+- Install the latest version of [node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (This program was developed on node v12.18.3). Node Version 8 or above is needed for this program.
 - Run `npm install`
 - Run the program `node index.js`
 - Follow the instructions on the console/ prompt:
   1. Press `Enter` to load more data.
   2. Press `Esc` or `Ctrl+c` to stop the program.
-  3. The program will stop running once you the last page or there is no more data to load.
+  3. The program will stop running once you are on the last page or there is no more data to load.
 
 ### About The Code
 - `index.js`: Starts the program. Listen's to the key press events and waits on the user.
