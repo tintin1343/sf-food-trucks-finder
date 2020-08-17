@@ -6,8 +6,7 @@ A command line based Node.js program that prints out a list of food trucks that 
 
 It display's results in pages with 10 trucks per page. That is: if there are more than 10 food trucks open, the program will display the first 10, then wait for input from the user before displaying the next 10 (or fewer if there are fewer than 10 remaining), and so on until there are no more food trucks to display. 
 
-It displays name and address of the trucks and sort the output alphabetically
-by name.
+It displays name and address of the trucks and sort the output alphabetically by name.
 
 ### Example output:
 ```
